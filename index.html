@@ -64,6 +64,19 @@ kwaiq.instance('514996230943670340').track('purchase')
         </script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js" defer></script>
     <script src="app.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Detecta quando a página é completamente carregada
+        var divAlvo = document.getElementById("betSeteK");
+
+        if (divAlvo) {
+            // Se a div existir, faça a rolagem para ela
+            divAlvo.scrollIntoView({
+                behavior: "smooth" // Adiciona um efeito de rolagem suave
+            });
+        }
+    });
+</script>
 </body>
 
 </html>
